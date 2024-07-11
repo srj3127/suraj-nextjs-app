@@ -21,19 +21,19 @@ export default function Home() {
         <br />
         Respond to 25+ support emails daily: While crucial for customer satisfaction, managing a high volume of emails can be challenging and requires efficient time management to ensure each customer receives prompt and helpful responses.<br />
         <br />
-        Scheduling team coverage: Coordinating schedules to ensure adequate support coverage can be complex, but it's essential for team coordination and providing consistent support to our customers.<br />
+        Scheduling team coverage: Coordinating schedules to ensure adequate support coverage can be complex, but its essential for team coordination and providing consistent support to our customers.<br />
         <br />
         Analyze support tickets for trends: Identifying patterns in customer issues helps us improve our platform, but it involves meticulous review and can be time-consuming.<br />
         <br />
-        Resolve billing issues: Addressing billing inquiries requires attention to detail and navigating through policies to ensure customers' financial interactions with our platform are clear and satisfactory.<br />
+        Resolve billing issues: Addressing billing inquiries requires attention to detail and navigating through policies to ensure customers financial interactions with our platform are clear and satisfactory.<br />
         <br />
         Troubleshoot technical issues through logs: Investigating technical issues by examining logs is critical for resolving problems, but it can be challenging without clear error messages and may require deep technical knowledge.
       </>
     ) },
-    { question: "2. What do you want to learn or do more of at work?", answer: "I'm eager to deepen my understanding of cloud infrastructure and serverless architectures. Additionally, I aspire to enhance my ability to troubleshoot complex technical issues effectively and communicate solutions clearly to our users." },
+    { question: "2. What do you want to learn or do more of at work?", answer: "I am eager to deepen my understanding of cloud infrastructure and serverless architectures. Additionally, I aspire to enhance my ability to troubleshoot complex technical issues effectively and communicate solutions clearly to our users." },
     { question: "3. Describe how you solved a challenge or technical issue that you faced in a previous role (preferably in a previous support role). How did you determine that your solution was successful?", answer: "In a previous role, I encountered a critical issue where users were experiencing intermittent downtime due to an unforeseen configuration conflict. I systematically reviewed server logs, consulted with our engineering team to identify potential root causes, and implemented a targeted solution based on our findings. I verified the solution's success through rigorous testing and monitoring, ensuring that the issue was fully resolved and users reported stable service thereafter." },
     { question: "4. When would you choose to use Edge Functions, Serverless Functions, or Edge Middleware with Vercel?", answer: "I would choose Edge Functions for modifying HTTP requests and responses at the CDN edge, optimizing performance and user experience. Serverless Functions would be ideal for executing backend logic triggered by events, such as processing form submissions or handling user authentication. Edge Middleware would be suitable for applying common HTTP middleware to requests before they reach the origin server, enhancing security and routing efficiency." },
-    { question: "5. Imagine a customer writes in requesting help with a build issue on a framework or technology that you've not seen before. How would you begin troubleshooting this and what questions would you ask the customer to understand the situation better?", answer: "I would start by requesting specific details about the error messages or symptoms the customer is encountering during the build process. Understanding which framework or technology stack they are using and their project configuration details would be crucial. Additionally, I would ask about recent changes or updates made to their project setup. This information would help me narrow down potential causes and guide further troubleshooting steps effectively." },
+    { question: "5. Imagine a customer writes in requesting help with a build issue on a framework or technology that you have not seen before. How would you begin troubleshooting this and what questions would you ask the customer to understand the situation better?", answer: "I would start by requesting specific details about the error messages or symptoms the customer is encountering during the build process. Understanding which framework or technology stack they are using and their project configuration details would be crucial. Additionally, I would ask about recent changes or updates made to their project setup. This information would help me narrow down potential causes and guide further troubleshooting steps effectively." },
     { question: (
     <>
       6. The customer from question 5 replies to your response with the below:<br />
@@ -42,16 +42,16 @@ export default function Home() {
       Please write a follow-up reply to the customer.<br />
       <br />
       </>),
-    answer: "I understand your frustration and apologize for the difficulties you've experienced. To resolve this issue promptly, could you please provide specific details such as error messages or any steps you've already taken? This information will help us investigate further and find a solution tailored to your needs. Your patience and cooperation are greatly appreciated." },
+    answer: "I understand your frustration and apologize for the difficulties you have experienced. To resolve this issue promptly, could you please provide specific details such as error messages or any steps you've already taken? This information will help us investigate further and find a solution tailored to your needs. Your patience and cooperation are greatly appreciated." },
     { question: 
       (
         <>
-          7. A customer writes in to the Helpdesk asking "How do I do a redirect from the /blog path to https://example.com?" Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.
+          7. A customer writes in to the Helpdesk asking How do I do a redirect from the /blog path to https://example.com? Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.
           <br />
           </>),
      answer: (
       <>
-      To redirect the /blog path to https://example.com, you can add the following configuration to your Vercel project's routing settings:<br />
+      To redirect the /blog path to https://example.com, you can add the following configuration to your Vercel projects routing settings:<br />
         json
           {`{
             "routes": [
